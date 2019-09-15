@@ -1,6 +1,27 @@
 # Python Command Line Application
 
+**Prerequisites:** Python 3 (3.7.4) and Windows OS
+
 Write a Python command line application that allows users to view and purchase movies.
+
+## Getting Started
+
+To install this application, run the following commands:
+
+```bash
+git clone https://github.com/EuihoonSeol/Python-Command-Line.git
+cd Python-Command-Line
+```
+
+To run the application, run the following command on the folder `Python-Command-Line`:
+ 
+```bash
+python movie_ticketing_system.py
+```
+
+This will display something like this:
+
+
 
 ## Details
 
@@ -10,6 +31,7 @@ The user is presented with a menu with the following choices.
 2. Show my movies.
 3. Purchase a movie.
 4. Show credit balance.
+5. Exit
 
  
 ### List all available movies.
@@ -49,8 +71,6 @@ Each time the user purchases a movie the cost of the movie is deducted from thei
 If the user does not have enough credit remaining to purchase the movie, display the string "Not enough credit remaining to purchase this movie".
 When a movie is purchased it is added to the my_movies.json file.
 
-## Optional (but bonus points for completion)
-
 ### List all available movies in a specific genre.
 The user should be able to see the list of available genres, select a genre and is then shown all of the movies in that genre.
 This data will come from the available_movies.json file. When the results from the user's selection are displayed, the user 
@@ -62,18 +82,6 @@ of the movie. Both the my_movies.json and available_movies.json files should be 
 The user must type at least three characters for the search to be valid. If no movie matches the search term, 
 display the string "no movies found matching <search_term>". The user is then returned to the initial selection.
 If a match or matches are found, these are shown to the user. The user can then chose one of movies in the results to purchase.
-
-## Documentation
-
-Please modify README.md to add instructions on how to run your application, especially if you are using Python libraries that are not built-in.
-
-## Submission Instructions
-1. Clone the repository.
-2. Complete your project as described above within your local repository.
-3. Ensure everything you want to commit is committed.
-4. Either
-    * Create a git bundle: `git bundle create your_name.bundle --all` and email the bundle file to dev.careers@chisel.ai, OR
-    * Host the repository on your own GitHub or Bitbucket account, and send / share the link with dev.careers@chisel.ai
 
 ## Evaluation
 Evaluation of your submission will be based on the following criteria.
