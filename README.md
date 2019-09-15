@@ -21,7 +21,7 @@ python movie_ticketing_system.py
 
 This will display something like this:
 
-
+![A Python app](python-app.png)
 
 ## Details
 
